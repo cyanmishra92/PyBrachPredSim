@@ -25,7 +25,7 @@ python branch_trace_generator.py --branches <number_of_branches> --seed <random_
 ```
 
 - `--branches` (optional): Specifies the number of branches to generate. Default is 10,000.
-- `--seed` (optional): Specifies the random seed for reproducibility.
+- `--seed` (compulsory): Specifies the random seed as your PSU ID for reproducibility.
 
 The generated trace is stored in a file called `branch_trace.csv` and contains two columns:
 - **BranchAddress**: The address of the branch instruction.
